@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Register | FarmHelp Hub</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/auth.css" />
+</head>
+<body>
+
+<div class="auth-container">
+
+  <h1>🌾 FarmHelp Hub</h1>
+  <p class="subtitle">Create Your Account</p>
+
+  <form onsubmit="registerUser(event)">
+    
+    <label>👤 Your Name</label>
+    <input type="text" required placeholder="Enter your name" />
+
+    <label>📞 Phone Number</label>
+    <input type="tel" required placeholder="Enter phone number" />
+
+    <label>📍 Your Location</label>
+    <input type="text" required placeholder="Village / Area" />
+
+    <label>🧑‍🌾 I am a</label>
+    <select required>
+      <option value="">Select</option>
+      <option>Farmer</option>
+      <option>Worker</option>
+    </select>
+
+    <button type="submit">Register</button>
+
+    <p class="link-text">
+      Already have an account?
+      <a href="login.html">Login</a>
+    </p>
+
+  </form>
+</div>
+
+<script src="js/auth.js"></script>
+</body>
+</html>
