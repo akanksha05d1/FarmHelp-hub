@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1767111600365,
+    "fullname": "Akanksha Bandi",
+    "phone": "1234567891",
+    "passwordHash": "$2a$08$QLn3wqFYF18bk/4lOTZ.ruYyL.R8Zrfg5Ds4t8U/057zufPCfFfVi",
+    "language": "English",
+    "district": "Hyd",
+    "createdAt": "2025-12-30T16:20:00.365Z"
+  },
+  {
+    "id": 1767111887962,
+    "fullname": "Akanksha Bandi",
+    "phone": "1234567890",
+    "passwordHash": "$2a$08$Vln1zWI1GfYAnar8UfK7UuPOA8wWwNcv0FAU3XXBig5q9Qgy095sG",
+    "language": "English",
+    "district": "Hyd",
+    "createdAt": "2025-12-30T16:24:47.962Z"
+  }
+]

@@ -1,0 +1,55 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Hero Images */
+.hero-img {
+  height: 80vh;
+  object-fit: cover;
+  filter: brightness(70%);
+}
+
+/* Carousel Text */
+.carousel-caption {
+  bottom: 40%;
+}
+
+.carousel-caption h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+/* About Section */
+.about-section {
+  padding: 60px 20px;
+  background-color: #f4fff4;
+}
+
+.about-section h2 {
+  color: #2d7a2d;
+  margin-bottom: 20px;
+}
+
+/* Dashboard Section */
+.dashboard-section {
+  padding: 60px 20px;
+}
+
+.feature-card {
+  border-radius: 15px;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.feature-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+/* Footer */
+.footer {
+  background-color: #2d7a2d;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
